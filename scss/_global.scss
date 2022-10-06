@@ -1,0 +1,23 @@
+/** colores*/
+$dark-green-title:#025157;
+$dark-green-text:#135359;
+$white:#ffffff;
+
+/** fuentes */
+$font-title:"Alegreya", sans-serif;
+$gray-dark:#4a4a4a;
+$textsize-card-title:24px;
+$light-green-text:#67b54b;
+$gray-light:#979797;
+
+
+
+
+%base-title{
+    font-family: $font-title;
+    color:$dark-green-title;
+}
+%card-text{
+    color:$gray-light;
+    
+}
