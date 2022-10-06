@@ -1,2 +1,66 @@
 /** colores*/
-/** fuentes *//*# sourceMappingURL=main.css.map */
+/** fuentes */
+.navbar {
+  background-color: #1E5B4D;
+}
+.navbar a > img {
+  width: 60px;
+}
+.navbar > div > div > ul {
+  display: flex;
+  justify-content: space-around;
+  gap: 20px;
+  font-size: 18px;
+  font-weight: 500;
+}
+.navbar > div > div > ul > li {
+  display: inline;
+  margin: 0px 25px;
+}
+.navbar > div > div > ul > li > a {
+  color: #ffffff;
+}
+.navbar > div > div > ul > li > a:hover {
+  color: #67b54b;
+}
+.navbar > div > div > .actions {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+.navbar > div > div > .actions > a {
+  font-size: 18px;
+  margin: 0px 10px;
+  color: #ffffff;
+  font-weight: 500;
+}
+.navbar > div > div > .actions > button {
+  background-color: #DFCAA5;
+  color: #691B32;
+  font-weight: 500;
+  font-size: 18px;
+}
+.navbar button {
+  background-color: #DFCAA5;
+  color: #fff;
+  padding: 12px 14px;
+  border: none;
+  border-radius: 5px;
+}
+.navbar .actions > * {
+  font-size: 14px;
+  margin: 0px 10px;
+}
+
+.contenedor-titulo {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.contenedor-graf-todo {
+  display: grid;
+  grid-template: repeat(2, 1fr)/repeat(2, 1fr);
+  margin: 80px 80px;
+}/*# sourceMappingURL=main.css.map */

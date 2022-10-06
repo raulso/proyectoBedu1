@@ -1,1 +1,90 @@
 @use "global" as *;
+
+.navbar {
+    background-color:$green-gn ;
+    & a {
+        & > img {
+            width: 60px;
+        }
+    }
+
+    & > div{ 
+       & > div{
+            & > ul {
+                display: flex;
+                justify-content: space-around;
+                gap:20px;
+                font-size:18px;
+                font-weight: 500;
+               
+                & > li{
+                    display: inline;
+                    margin: 0px 25px;
+
+                    &  > a {
+                        color: $white;
+                        &:hover{
+                            color: $light-green-text;
+                        }
+                    }
+              }
+               
+                
+
+            }
+
+            &>.actions {
+                
+                display: flex;
+                align-items: center;
+                gap: 12px;
+               
+                &>a{
+                    font-size: 18px;
+                    margin: 0px 10px;
+                    color:$white ;
+                    font-weight: 500;
+
+                }
+                &>button{
+                    background-color: #DFCAA5;
+                    color: #691B32;
+                    font-weight: 500;
+                    font-size: 18px;
+                    
+                }
+            }
+        }
+   }
+
+   & button{
+    background-color: #DFCAA5 ;
+    color:#fff;
+    padding: 12px 14px;
+    border:none;
+    border-radius: 5px;
+   }
+   
+
+    & .actions{
+        & > *{
+        font-size: 14px;
+        margin: 0px 10px;
+        }
+    }
+}
+.contenedor-titulo{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 10px;
+}
+.contenedor-graf-todo{
+    
+    display: grid;
+    grid-template:repeat(2, 1fr) / repeat(2, 1fr);
+    margin: 80px 80px; 
+    
+
+}
+
