@@ -70,4 +70,10 @@
 }
 .pie-pagina > .art-cientifico > div > img {
   width: 100%;
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+  body {
+    background-color: RED;
+  }
 }/*# sourceMappingURL=main.css.map */

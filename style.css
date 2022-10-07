@@ -11,12 +11,14 @@ body {
     grid-template:repeat(2, 1fr) / repeat(2, 1fr);
     margin: 20px 0px;
     padding: 10px 20px; 
+    gap: 20px;
 }
 
 
 .contenedor-graf{
     background-color: #fcfcfc;
     border: 1px solid #f1f1f1;
+    border-radius: 10px;
  }
 
 .div-content{
