@@ -1,8 +1,51 @@
 @import url('https://fonts.googleapis.com/css2?family=Alegreya:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap');
 
 body {
     background-color:  #fffbf7;
 }
+
+
+.contenedor-graf-todo{
+    display: grid;
+    grid-template:repeat(2, 1fr) / repeat(2, 1fr);
+    margin: 20px 0px;
+    padding: 10px 20px; 
+}
+
+
+.contenedor-graf{
+    background-color: #fcfcfc;
+    border: 1px solid #f1f1f1;
+ }
+
+.div-content{
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+    padding: 20px 20px;
+    justify-content: flex-start;
+    
+    
+}
+
+.div-content > h4{
+    font-family:"Monserrat", sans-serif;
+    color: #691B32;
+}
+.div-content > img{
+   width: 100%;
+}
+.div-content > p{
+    left: 0;
+ }
+
+.p2{
+    font-family:"Monserrat", sans-serif;
+
+}
+
+
 
 
 

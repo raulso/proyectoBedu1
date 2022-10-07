@@ -79,12 +79,28 @@
     justify-content: center;
     margin-top: 10px;
 }
-.contenedor-graf-todo{
-    
+.pie-pagina{
     display: grid;
-    grid-template:repeat(2, 1fr) / repeat(2, 1fr);
-    margin: 80px 80px; 
+    grid-template:repeat(1, 1fr) / repeat(2, 1fr);
+   
+    margin: 20px 0px;
+    padding: 10px 20px; 
     
+    &>.art-cientifico{
+        &>.art-text{
+            &>h{
+                color:#691B32;
+
+            }
+        
+        }
+        &>div{
+            &>img{
+                width: 100%;
+            }
+        }
+    }
+
+
 
 }
-
