@@ -72,8 +72,23 @@
   width: 100%;
 }
 
-@media (min-width: 576px) and (max-width: 767px) {
-  body {
-    background-color: RED;
+@media (max-width: 575px) {
+  .contenedor-titulo {
+    text-align: center;
+    background-color: #DFCAA5;
+    margin: 0;
+  }
+  .contenedor-titulo > .titulo-general {
+    font-size: 25px;
+    color: #691B32;
+  }
+  .contenedor-graf-todo {
+    grid-template-columns: 1fr;
+    background-color: #691B32;
+    padding: 20px 20px;
+    margin: 0;
+  }
+  .pie-pagina {
+    grid-template-columns: 1fr;
   }
 }/*# sourceMappingURL=main.css.map */
